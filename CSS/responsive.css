@@ -1,0 +1,521 @@
+/* -- RESPONSIVE : DESKTOP (plus de 992px ) -- */
+/* -- RESPONSIVE : TABLETTE (moins de 992px ) -- */
+/* -- RESPONSIVE : TELEPHONE ( moins de 768px) -- */
+/* -- RESPONSIVE : TELEPHONE ( moins de 450px) -- */
+
+
+
+/* -- RESPONSIVE : TABLETTE (992px ) -- */
+
+@media (max-width: 992px)
+{
+
+/* -- BODY -- */
+	body
+	{
+		width: 100%;
+	}
+
+/* -- HEADER -- */
+
+	header
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+
+	nav
+	{
+		width: 100%;
+		
+	}
+
+	.logo
+	{
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.bouton_nav
+	{
+		width: 50%;
+		border-bottom: 3px #d9d9d9 solid ;
+		border-top: 0px #0065fc solid;
+		text-align: center;
+	}
+
+	.bouton_nav:hover
+	{	
+		border-bottom: 3px #0065fc solid;
+		border-top: 0px #0065fc solid;
+	}
+
+/* -- SECTION 01-- */
+
+
+	#section_01
+	{
+		text-align: left;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	#search_bar
+	{
+		
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.search_button
+	{
+		height: 50px;
+		width: 50px;
+		border-radius: 15px 15px 15px 15px ;
+		position: 	relative;
+		left: -10px;
+	}
+
+	.search_button:hover
+	{
+		background: #0085fc;
+	}
+
+	.search_button a
+	{
+		display: none;
+	}
+
+	.search_button i
+	{
+		margin: auto;
+		display: flex;
+		color: white;
+	}
+
+/* -- SECTION 02-- */
+
+	#section_02
+	{
+		flex-wrap: wrap-reverse;
+	}
+
+	#hebergements
+	{
+		width: 100%;
+		background: white;
+	}
+
+/* -- SECTION 02 : LPP -- */
+
+	#Les_plus_populaires
+	{
+		width: 100%;
+		border-radius: 0px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	#LPP_chart
+	{
+		width: 100%;
+	}
+
+	#LPP_chart i
+	{
+		text-align: right;
+	}
+
+	.title_LPP
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.organization_cards_02 /* -- LPP : BOX GENERAL -- */
+	{
+		margin: auto;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.full_description
+	{
+		width: 170px;
+	}
+
+/* -- HEBERGEMENTS -- */
+
+	.title_hebergements
+	{
+		text-align: center;
+	}
+
+	.organization_cards_01 /* -- HEBERGEMENTS : BOX GENERAL -- */
+	{
+		margin: auto;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.organization_cards_01 a /* -- LA CARD HEBERGEMENT-- */
+	{
+		width: 290px;
+		height: 170px;
+	}
+
+	.card_hebergement
+	{
+		display: flex;
+		flex-direction: column;
+		background: white;
+		box-shadow: 2px 2px 2px 5px #e7e7e7;
+		border-radius: 20px;
+		width: 290px;
+		height: 170px;
+	}
+
+	.card_hebergement:hover 
+	{
+		background: #deebff;	
+	}
+
+	.photo_hebergement img /* -- Auberge de La CANEBIERE - Hotel du Port - Hotel Les mouettes - Auberge Le Panier -- */
+	{
+		width: 100%;
+		height: auto;
+		top: -50px;
+	}
+
+	.photo_hebergement_02 img /* -- Hotel de la Mer-- */
+	{
+		width: 100%;
+		height: auto;
+		top: -90px;
+	}
+
+	.photo_hebergement_03 img /* -- Hotel Chez Amina -- */
+	{
+		width: 100%;
+		height: auto;
+		top: -170px;
+	}
+
+	.afficher_plus
+	{
+		text-align: center;
+	}
+
+/* -- ACTIVITES à Marseille -- */
+
+	.main_title_activites
+	{
+		text-align: center;
+	}
+
+	.organization_cards_03 /* -- ACTIVITES : BOX GENERAL -- */
+	{
+		justify-content: center;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.organization_cards_DUO
+	{
+		grid-row-gap: 3%;
+	}
+
+
+	.card_activite_01 /* -- Vieux port -- */
+	{
+		display: flex;
+		flex-direction: column;
+		background: white;
+		box-shadow: 2px 2px 2px 5px #e7e7e7;
+		border-radius: 20px;
+		width: 290px;
+		height: 170px;
+		margin-bottom: 30px;
+	}
+
+	.card_activite_01:hover /* -- Île de Frioul + Notre-Dame-de-la-Garde -- */
+	{
+		background: #deebff;
+	}
+
+	.card_activite_02 /* -- Fort de Pomègues + Parc Longchamps -- */
+	{
+		display: flex;
+		flex-direction: column;
+		background: white;
+		box-shadow: 2px 2px 2px 5px #e7e7e7;
+		border-radius: 20px;
+		width: 290px;
+		height: 170px;
+	}
+
+	.card_activite_02:hover /* -- Fort de Pomègues + Parc Longchamps -- */
+	{
+		background: #deebff;	
+	}
+
+	.photo_activite_01 /* -- vieux port -- */
+	{
+		height: 150px;
+	}
+
+	.photo_activite_04 /* -- Parc national des calanques -- */
+	{
+		height: 150px;
+	}
+
+
+	.photo_activite_01 img /* -- Photo : Vieux Port -- */
+	{
+		top: -10px;
+		left: 0px;
+		width: 300px;
+		height: auto;
+	}
+
+	.photo_activite_02 img /* -- Photo : Fort de Pomegues -- */
+	{
+		top: -130px;
+	}
+
+	.photo_activite_03 img /* -- Photo : ile de frioul -- */
+	{
+		top: -30px;
+	}
+
+	.photo_activite_04 img /* -- Photo : Parc National des Calanques -- */
+	{
+		top: -50px;
+		left: -60px;
+		width: 400px;
+		height: auto;
+	}
+
+	.photo_activite_06 img /* -- Photo : Parc de longchamp -- */
+	{
+		top: -20px;
+	}
+
+}
+
+
+
+
+
+/* -- RESPONSIVE : TELEPHONE ( 768px) -- */
+
+
+@media (max-width: 768px)
+{
+
+#main_page
+{
+	margin: auto;
+}
+
+footer
+{
+	flex-direction: column;
+	justify-content: center;
+	grid-row-gap: 30px;
+	grid-column-gap: 30px;
+	padding-left:60px;
+	
+}
+
+}
+
+
+/* -- RESPONSIVE : TELEPHONE ( moins de 450px) -- */
+
+
+@media (max-width: 450px)
+{
+	.title_LPP
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.title_hebergements
+	{
+		text-align: left;
+	}
+
+	.main_title_activites
+	{
+		text-align: left;
+	}
+
+	.card_LPP
+	{
+		width: 100%;
+	}
+
+	.organization_cards_02 a
+	{
+		width: 100%;
+	}
+
+	.card_hebergement
+	{
+		width: 100%;
+	}
+
+	.organization_cards_01 a
+	{
+		width: 100%;
+	}
+
+	.photo_hebergement img /* -- Auberge de La CANEBIERE - Hotel du Port - Hotel Les mouettes - Auberge Le Panier -- */
+	{
+		width: 100%;
+		height: auto;
+		top: -80px;
+	}
+
+	.photo_hebergement_02 img /* -- Hotel de la Mer-- */
+	{
+		width: 100%;
+		height: auto;
+		top: -120px;
+	}
+
+	.photo_hebergement_03 img /* -- Hotel Chez Amina -- */
+	{
+		width: 100%;
+		height: auto;
+		top: -225px;
+	}
+
+	.afficher_plus
+	{
+		text-align: left;
+	}
+
+	#section_03
+	{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.card_activite_01 /* -- Vieux Port + Parc National des Calanques -- */
+	{
+		width: 100%;
+	}
+
+	.photo_activite_01 /* -- vieux port -- */
+	{
+		width: 100%;
+	}
+
+	.photo_activite_01 img /* -- vieux port -- */
+	{
+		width: 100%;
+		top: -50px;
+	}
+
+	.photo_activite_04 /* -- Parc National des Calanques -- */
+	{
+		width: 100%;
+	}
+
+	.photo_activite_04 img /* -- Parc National des Calanques -- */
+	{
+		width: 100%;
+		top: -50px;
+		left: 0px;
+	}
+
+
+	.organization_cards_DUO
+	{
+		width: 100%;
+	}
+
+	.card_activite_02 /* -- Fort de Pomègues + Parc Longchamps -- */
+	{
+		width: 100%;
+	}
+
+	.photo_activite_02 /* -- Fort de Pomègues */
+	{
+		width: 100%;
+	}
+
+	.photo_activite_02 img /* -- Fort de Pomègues */
+	{
+		width: 100%;
+		top: -200px;
+	}
+
+	.photo_activite_06 /* -- Parc Longchamps -- */
+	{
+		width: 100%;
+	}
+
+	.photo_activite_06 img /* -- Parc Longchamps -- */
+	{
+		width: 100%;
+		position: relative;
+		top: -50px;
+	}	
+
+	.card_activite_03 /* -- Île de Frioul + Notre-Dame-de-la-Garde -- */
+	{
+		width: 100%;
+	}
+
+	.photo_activite_03 /* -- Île de Frioul -- */
+	{
+		width: 100%;
+	}
+
+	.photo_activite_03 img /* -- Île de Frioul -- */
+	{
+		width: 100%;
+		top: -50px;
+		left: 0px;
+	}	
+
+	.photo_activite_05 /* -- Notre-Dame-de-la-Garde -- */
+	{
+		width: 100%;
+	}
+
+	.photo_activite_05 img /* -- Notre-Dame-de-la-Garde -- */
+	{
+		width: 100%;
+		position: relative;
+		top: -20px;
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
